@@ -24,6 +24,15 @@ public class Test {
 	}
 	
 	@org.testng.annotations.Test
+	public void testCase1() {
+		System.out.println("@Testע�⣬case1");
+	}
+	@org.testng.annotations.Test
+	public void testCase2() {
+		System.out.println("@Testע�⣬case2");
+	}
+	
+	@org.testng.annotations.Test
 	public void openChrome3() throws InterruptedException {
 		System.setProperty("webdriver.chrome.driver", "F:\\eclipse\\TestWeb02\\Drive\\chromedriver.exe");
 		WebDriver chrome = new ChromeDriver();
