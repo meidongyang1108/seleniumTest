@@ -3,7 +3,7 @@
 <suite name="Default suite" thread-count="2" parallel="methods">
   <test verbose="2" name="Default test">
     <classes>
-      <class name="test.demo.Test">
+      <class name="test.demo.Test2">
         <!-- <methods>
           <include name="operationTest"/>
         </methods> -->
